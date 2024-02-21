@@ -1,0 +1,348 @@
+html{
+  background-color: #fff8f0;
+}
+body{
+  margin: 0;
+  padding: 0;
+  font-family:"Inter", sans-serif;
+font-size: 1rem;
+font-weight: 400;
+line-height: 1.5rem;
+text-align: left;
+color: #55206d;
+}
+h1{
+  font-family: "League Spartan", sans-serif;
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 3.2rem;
+  text-align: left;
+  color: #190d37;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+h2{
+  font-family: "League Spartan", sans-serif;
+  font-size: 2.25rem;
+  font-weight: 700;
+  line-height: 2.5rem;
+  text-align: center;
+  color: #190d37;
+}
+.themail{
+  float: right;
+}
+.small-text{
+font-family: "Inter" sans-serif;
+font-size: 12px;
+font-weight: 400;
+line-height: 14px;
+color: black;
+}
+.hi-and-name{
+  margin-top: 3rem;
+}
+.big-text{
+  font-family: "Poppins", sans-serif;
+  color: #220f52;
+  font-size: 1.1rem;
+  font-weight: 400;
+  line-height: 1.5rem;
+}
+.what-ido{
+  text-align: center;
+  margin: 8px auto 48px auto;
+  max-width: 1028px;
+}
+.contact-button{
+  height: 2.8rem;
+  width: 9rem;
+  border-radius: 0.25rem;
+  background-color: #2f2f2f;
+  color: #fff8f0;
+  margin-top: 1rem;
+  border-width: 1px;
+}
+.contact-button:hover{
+  background-color: #fff8f0;
+  color: #2f2f2f;
+  cursor: pointer;
+}
+.hero-section{
+  display: flex;
+  max-width: 1028px;
+  min-width:788px;
+  margin: 0 auto 48px auto;
+
+}
+.hero-text{
+  padding: 2rem 1.1rem;
+  width: 60%;
+}
+.hero-img-wrapper{
+  width: 40%;
+}
+#myimage{
+border-bottom-left-radius:8rem;
+border-bottom-right-radius:8rem ;
+border: solid lightgray 1px;
+width: 100%;
+}
+/* The Project Section */
+.projects-container {
+  max-width: 1028px;
+  margin: 48px auto;
+}
+
+.project-display {
+  display: flex;
+  align-items: center;
+  padding: 16px;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+  margin-bottom: 16px;
+}
+
+.project-display:last-child {
+  margin-bottom: 0;
+}
+
+.project-display:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.project-icon {
+  width: auto;
+  height: auto;
+  background-color: #2f2f2f;
+  color: #fff;
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px;
+  border-radius: 8px;
+  margin-right: 16px;
+}
+
+.project-right-side {
+  flex-grow: 1;
+}
+
+.project-description {
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.project-links {
+  display: inline-block;
+  margin-top: 8px;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.project-links:hover {
+  text-decoration: underline;
+}
+
+/* The Price Section */
+.pricing-section{
+  max-width: 1028px;
+  margin: 96px auto 96px auto;
+}
+.overtitle{
+  font-family: "Poppins" sans-serif;
+font-size: 12px;
+font-weight: 600;
+line-height: 18px;
+color: #2858FF;
+text-align: center;
+}
+.section-heading{
+  text-align: center;
+  max-width: 1028px;
+}
+.section-subtitle{
+  text-align: center;
+  margin: 8px auto 48px auto;
+
+}
+.pricing-boxes{
+  display: flex;
+}
+.pricing-box{
+  width: 33.33%;
+
+}
+.pricing-card{
+  text-align: center;
+  background-color: white;
+  margin: 0 10px;
+  border-radius: 10px;
+  box-shadow: 6px 2px 25px -9px #0000001a;
+  padding: 20px;
+}
+.box2{
+  text-align: center;
+  background-color: #f8b500;
+  margin: 0 10px;
+  border-radius: 10px;
+  box-shadow: 6px 2px 25px -9px #0000001a;
+  padding: 20px;
+}
+.box2 .service{
+  font-family: "Poppins" sans-serif;
+  font-size: 0.8rem;
+  font-weight: 500;
+  line-height: 1.3rem;
+  text-transform: uppercase;
+  color:black ;
+  text-align: left;
+}
+.box2 .price-per{
+  color: #393e46;
+  font-family: "Poppins" sans-serif;
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 3rem;
+}
+.box2 .service-description{
+  color: #393e46;
+  font-family: "Poppins" sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  margin-top: 0.5rem;
+  text-align: left;
+
+}
+.service{
+  font-family: "Poppins" sans-serif;
+  font-size: 0.8rem;
+  font-weight: 500;
+  line-height: 1.3rem;
+  text-transform: uppercase;
+  color:#2858FF ;
+  text-align: left;
+}
+.price{
+  margin-top: 0.5rem;
+  font-family: "Poppins" sans-serif;
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 4rem;
+  color: black;
+  text-align: left;
+}
+.price-per{
+
+  color: #8a8a8a;
+  font-family: "Poppins" sans-serif;
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 3rem;
+}
+.service-description{
+  color: #8b8b8b;
+  font-family: "Poppins" sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  margin-top: 0.5rem;
+  text-align: left;
+
+}
+.service-benefits{
+  padding:0 0;
+  list-style-type: none;
+  font-size: 8px;
+  font-weight: 500;
+  line-height: 12px;
+  margin-top: 1rem;
+  text-align: left;
+}
+.service-benefits li{
+  margin-bottom: 0.5rem;
+}
+.box2 .service-button{
+  width: 100%;
+  height: 3rem;
+  border-radius: 0.25rem;
+  border-width: 1px;
+  background-color: #2f2f2f;
+  color: white;
+}
+.box2 .service-button:hover{
+  background-color: transparent;
+}
+.service-button{
+  margin-top: 1rem;
+  width: 100%;
+  height: 3rem;
+  border-radius: 0.25rem;
+  border-width: 1px;
+  background-color: #2f2f2f;
+  color: white;
+}
+.service-button:hover{
+  background-color: #fff8f0;
+  color: #2f2f2f;
+  cursor: pointer;
+}
+.footer{
+    height: 36px;
+  background-color: #2f2f2f;
+  margin-top: 48px;
+  text-align: center;
+  padding: 20px;
+}
+.footer-span{
+  color:#fff8f0;
+  font-size: 10px;
+}
+.check-img{
+height: 10px;
+width: 10px;
+margin-bottom: -2px;
+}
+.question-form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+.question-form .form-group {
+  margin-bottom: 16px;
+  display: block;
+}
+.question-form label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 4px;
+}
+
+.question-form input[type="text"],
+.question-form input[type="email"],
+.question-form textarea {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  display: block;
+  width: 100%;
+}
+.question-form textarea {
+  resize: vertical;
+}
+.question-form button {
+  padding: 8px 16px;
+  background-color: #2f2f2f;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 417px;
+  margin: 0 auto;
+}
+.question-form button:hover {
+  background-color: transparent;
+  color: black;
+  border: solid black 1px;
+}
